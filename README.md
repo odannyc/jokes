@@ -10,6 +10,11 @@ There's only 2 steps you need to do when you have Docker installed:
 1. `docker build . -t jokes` 
 2. `docker run --rm -d -p 80:80 jokes`
 
+If you don't have Docker and would prefer not to install it, you can use the built in PHP web server:
+
+1. `composer dump-autoload`
+2. `php -S localhost:8000 -t .`
+
 Make sure you do this in the root of this project, and you're all done!
 Navigate to `localhost` and you'll be staring at the jokes project.
 
