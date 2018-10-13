@@ -37,6 +37,10 @@ The first routes which goes to index is basically just a page that displays a ra
   {
     "question": "Where do animals go when their tails fall off?",
     "answer": "The retail store."
+  },
+  {
+    "question": "How many apples grow on a tree?",
+    "answer": "All of them."
   }
 ]
 ```
